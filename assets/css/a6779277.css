@@ -1,0 +1,83 @@
+/*
+Theme Name: Sadaf
+Theme URI: http://example.com/mytheme
+Author: Your Name
+Author URI: http://example.com
+Description: Sadaf, appointment booking and medical product sales template.
+Version: 1.1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: sadaf
+*/
+
+@font-face {
+    font-family: 'IRANSansWebFaNum'; /* This is the name you'll use in Elementor */
+    src: url('assets/fonts/IRANSansWeb_FaNum.eot'); /* IE9 Compat Modes */
+    src: url('assets/fonts/IRANSansWeb_FaNum.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('assets/fonts/IRANSansWeb_FaNum.woff2') format('woff2'), /* Super Modern Browsers */
+         url('assets/fonts/IRANSansWeb_FaNum.woff') format('woff'), /* Modern Browsers */
+         url('assets/fonts/IRANSansWeb_FaNum.ttf') format('truetype'); /* Safari, Android, iOS */
+    font-weight: normal; /* Corresponds to 400 */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANSansWebFaNum';
+    src: url('assets/fonts/IRANSansWeb_FaNum_Light.eot');
+    src: url('assets/fonts/IRANSansWeb_FaNum_Light.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/IRANSansWeb_FaNum_Light.woff2') format('woff2'),
+         url('assets/fonts/IRANSansWeb_FaNum_Light.woff') format('woff'),
+         url('assets/fonts/IRANSansWeb_FaNum_Light.ttf') format('truetype');
+    font-weight: 300; /* Light */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANSansWebFaNum';
+    src: url('assets/fonts/IRANSansWeb_FaNum_Medium.eot');
+    src: url('assets/fonts/IRANSansWeb_FaNum_Medium.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/IRANSansWeb_FaNum_Medium.woff2') format('woff2'),
+         url('assets/fonts/IRANSansWeb_FaNum_Medium.woff') format('woff'),
+         url('assets/fonts/IRANSansWeb_FaNum_Medium.ttf') format('truetype');
+    font-weight: 500; /* Medium */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANSansWebFaNum';
+    src: url('assets/fonts/IRANSansWeb_FaNum_Bold.eot');
+    src: url('assets/fonts/IRANSansWeb_FaNum_Bold.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/IRANSansWeb_FaNum_Bold.woff2') format('woff2'),
+         url('assets/fonts/IRANSansWeb_FaNum_Bold.woff') format('woff'),
+         url('assets/fonts/IRANSansWeb_FaNum_Bold.ttf') format('truetype');
+    font-weight: bold; /* Corresponds to 700 */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANSansWebFaNum';
+    src: url('assets/fonts/IRANSansWeb_FaNum_Black.eot');
+    src: url('assets/fonts/IRANSansWeb_FaNum_Black.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/IRANSansWeb_FaNum_Black.woff2') format('woff2'),
+         url('assets/fonts/IRANSansWeb_FaNum_Black.woff') format('woff'),
+         url('assets/fonts/IRANSansWeb_FaNum_Black.ttf') format('truetype');
+    font-weight: 900; /* Black */
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'IRANSansWebFaNum';
+    src: url('assets/fonts/IRANSansWeb_FaNum_UltraLight.eot');
+    src: url('assets/fonts/IRANSansWeb_FaNum_UltraLight.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/IRANSansWeb_FaNum_UltraLight.woff2') format('woff2'),
+         url('assets/fonts/IRANSansWeb_FaNum_UltraLight.woff') format('woff'),
+         url('assets/fonts/IRANSansWeb_FaNum_UltraLight.ttf') format('truetype');
+    font-weight: 200; /* UltraLight */
+    font-style: normal;
+    font-display: swap;
+}
